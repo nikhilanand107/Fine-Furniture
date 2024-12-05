@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Furniture - Fine Furniture Store</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <h1>Fine Furniture</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Cart</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- <section class="purchase-section">
+            <div class="product-details">
+                <h2>Your Furniture Selection</h2>
+                <div class="product">
+                    <img src="furniture.jpg" alt="Furniture Image">
+                    <div class="product-info">
+                        <h3>Modern Sofa</h3>
+                        <p>Description: A comfortable and stylish modern sofa for your living room.</p>
+                        <p>Price: ₹35,000</p>
+                    </div>
+                </div>
+            </div> -->
+            <div class="container">
+
+            <div class="buyer-details">
+                <h2>Enter Your Details</h2>
+                <form action="#" method="POST" class="purchase-form">
+                    <fieldset>
+                        <legend>Shipping Information</legend>
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address" placeholder="Enter your address" required>
+                        
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" placeholder="Enter your city" required>
+                        
+                        <label for="zipcode">Zip Code:</label>
+                        <input type="text" id="zipcode" name="zipcode" placeholder="Enter your zip code" required>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Payment Information</legend>
+                        <label for="card-name">Cardholder Name:</label>
+                        <input type="text" id="card-name" name="card-name" placeholder="Enter your cardholder name" required>
+                        
+                        <label for="card-number">Card Number:</label>
+                        <input type="text" id="card-number" name="card-number" placeholder="Enter your card number" required>
+                        
+                        <label for="expiry-date">Expiry Date:</label>
+                        <input type="date" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                        
+                        <label for="cvv">CVV:</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="Enter your CVV" required>
+                    </fieldset>
+                    
+                    <button type="submit" class="purchase-button">Complete Purchase</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Fine Furniture Store. All rights reserved. NIKHIL ANAND</p>
+        </div>
+    </footer>
+</body>
+</html>

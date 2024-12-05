@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3a9b8b;
+    padding: 15px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo .logo {
+    background-image: url("finefurnituresbg.jpg");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+}
+
+.navadress {
+    display: flex;
+    align-items: center;
+}
+
+.deliver {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.adressicon {
+    display: flex;
+    align-items: center;
+}
+
+.adressicon .fa-location-dot {
+    margin-right: 5px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 5px 15px;
+}
+
+.search input,
+.search select {
+    border: none;
+    padding: 8px;
+    font-size: 0.9rem;
+    border-radius: 25px;
+}
+
+.searchicon {
+    background-color: #ff7f50;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+a.login-signup {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #2d9cdb;
+    transition: background-color 0.3s ease;
+}
+
+a.login-signup:hover {
+    background-color: #1c7baf;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #f5a623;
+    cursor: pointer;
+}
+
+.cart:hover {
+    background-color: #d4881f;
+}
+
+/* Pannel styles */
+.pannel {
+    background-color: #90e4a3;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+
+.pannel-all {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pannel-deals {
+    background-color: #ff6347;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1.1rem;
+}
+
+/* Product Section */
+.product {
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputimg {
+    color: #fff;
+}
+
+.feedback {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+.end {
+    position: relative;
+    top: 650px;
+    background-color: #2d9cdb;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.end p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+button{
+    /* background-color: #ff4b2b;
+    border-radius: 15px;
+    font-size: 12px;
+    border: 2px solid gold; */
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: black;  /* Green background */
+    border: none;
+    padding: 4px 12px;  /* Increase the padding to make the button bigger */
+    font-size: 15px;  /* Increase font size for a larger text */
+    border-radius: 20px;  /* Optional: rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .product {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

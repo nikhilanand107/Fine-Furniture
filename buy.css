@@ -1,0 +1,240 @@
+*{
+    font-style: none;
+}
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color: #3a9b8b;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 55px;
+    width:110px;
+}
+.logo{
+    height: 54px;
+    width: 55px;
+    background-size: contain;
+    background-image: url("finefurnituresbg.jpg");
+}
+.border{
+    border: 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.adressicon{
+    display: flex;
+    align-items: center;
+}
+.deliver{
+    color: rgb(192, 145, 84);
+    font-size: 0.8rem;
+}
+.search {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 5px 15px;
+}
+
+.search input,
+.search select {
+    border: none;
+    padding: 8px;
+    font-size: 0.9rem;
+    border-radius: 25px;
+}
+
+.searchicon {
+    background-color: #ff7f50;
+    padding: 10px;
+    border-radius: 25px;
+}
+/* .search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 600px;
+    border-radius: 10px;
+}
+.search:hover{
+    border: 4px solid #7aad61;
+}
+.searchicon{
+    background-color: #e8b97b;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+} */
+.selecting{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.searchplace{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.pannel{
+    height: 40px;
+    background-color: #90e4a3;
+    color: rgb(34, 29, 29);
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    font-size: 0.9rem;
+}
+.pannel-all{
+    margin-left: 39px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.pannelops{
+    width: 400px;
+    margin-left: 25px;
+    display:flex;
+    justify-content:space-between;
+}
+.space{
+    width:35%;
+}
+.pannel-deals{
+    background-color: #ff7f50;
+    width: 20%;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.herosection{
+    background-image: url("Fine\ furnitures.png");
+    background-size: contain;
+    height: 380px;
+}
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d8d5d5;
+    flex-wrap: wrap;
+}
+.box{
+    width: 23%;
+    height: 350px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.backimg{
+    height: 60%;
+    background-image: url("sofa.jpeg");
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+}
+.backimg1{
+    height: 60%;
+    background-image: url("table.jpeg");
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+}
+.backimg2{
+    height: 60%;
+    background-image: url("chairs.jpg");
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+}
+.backimg3{
+    height: 60%;
+    background-image: url("study\ table.jpeg");
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+}
+.backimg5{
+    height: 60%;
+    background-image: url("cupboard.jpeg");
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+}.backimg6{
+    height: 60%;
+    background-image: url("dressingtable.jpeg");
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+}
+.backimg7{
+    height: 60%;
+    background-image: url("bed.jpg");
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+}
+.backimg8{
+    height: 60%;
+    background-image: url("shoerack.jpeg");
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+}
+.backimg9{
+    height: 60%;
+    background-image: url("classicalcupboard.jpeg");
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+}.backimg10{
+    height: 60%;
+    background-image: url("drawer.jpeg");
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+}.backimg11{
+    height: 60%;
+    background-image: url("bookcase.jpeg");
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+}
+.backimg12{
+    height: 60%;
+    background-image: url("officetable.jpeg");
+    background-size: cover;
+    margin: 20px 10px 20px 10px;
+}
+.end{
+    height: 200px;
+    background-color: #7aad61;
+    margin-top: 20px;
+    text-align: center;
+}
+button{
+    /* background-color: #ff4b2b;
+    border-radius: 15px;
+    font-size: 12px;
+    border: 2px solid gold; */
+    font-family: 'Arial', sans-serif;
+    background-color: #ff4b2b;  /* Green background */
+    color: white;
+    border: 2px solid gold;
+    padding: 4px 12px;  /* Increase the padding to make the button bigger */
+    font-size: 15px;  /* Increase font size for a larger text */
+    border-radius: 20px;  /* Optional: rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+

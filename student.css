@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #1e90ff;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.furniture-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: center;
+    background-size: contain;
+}
+
+.furniture-item img {
+    max-width: 70%;
+    border-radius: 8px;
+}
+.furniture-item:hover{
+    transform: scale(0.9);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    /* text-align: center; */
+    padding: 10px 0;
+    position: fixed;
+    height: 15px;
+    width: 100%;
+    bottom: 0;
+    font-size: small;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    /* background-color: #ff4b2b;
+    border-radius: 15px;
+    font-size: 12px;
+    border: 2px solid gold; */
+    font-family: 'Arial', sans-serif;
+    background-color: #ff4b2b;  /* Green background */
+    color: white;
+    border: 2px solid gold;
+    padding: 4px 12px;  /* Increase the padding to make the button bigger */
+    font-size: 15px;  /* Increase font size for a larger text */
+    border-radius: 20px;  /* Optional: rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
